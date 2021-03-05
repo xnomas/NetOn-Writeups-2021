@@ -1,11 +1,12 @@
 # Caesar's secret
 
-This room is an OSINT room, we have to find a password to a .zip file. The only hint is this [link](https://twitter.com/EOTREOO).
+This room is an OSINT room, we have to find a password to a .zip file. The only hint is this [link](https://twitter.com/EOTREOO).</br>
+Author: N0xi0us
 
 ## Twitter recon
 
 Looks like someone took over the page:</br>
-![Brutus_takover](./Brutus_takover.png)</br>
+![Brutus_takover](./Brutus_takeover.png)</br>
 So this is not Caser's page anymore, interesting. Time to check out the tweets:</br>
 ![twitter_hint](./twitter_hint.png)</br>
 Right! So Brutus did a brutal takeover and deleted a bunch of tweets. Maybe we can use the [wayback machine](https://archive.org/)
@@ -15,7 +16,7 @@ Right! So Brutus did a brutal takeover and deleted a bunch of tweets. Maybe we c
 So when we open the wayback machine and enter the twitter profile link we see the following:</br>
 ![wayback](./wayback.png)</br>
 So lets see if it fits our time frame:</br>
-![takeover_twitter](./takeover_twitter.png)</br>
+![takeover_twitter](./takeover_tweet.png)</br>
 Proof of the crime, nice! But we can also see the time and date of this tweet. And it is after the wayback snapshot. So time to check it out.</br>
 </br>
 ![julius](./julius.png)</br>
