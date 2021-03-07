@@ -7,7 +7,7 @@ A king found this files on his wife's usb drive. Can you help us discover the se
 
 ## notes.wav
 
-So we have to files, `notes.wav` and `secret.7z`. When trying to extract `secret.7z` it asks for a password. So time to play the `noets.wav` file. Which turns out to be Morse code!</br>
+So we have two files, `notes.wav` and `secret.7z`. When trying to extract `secret.7z` it asks for a password. So time to play the `noets.wav` file. Which turns out to be Morse code!</br>
 </br>
 Now a lot of people might have just done it by hand, but I tried and had a lot of mistakes. Why not use the tools availabe? Like this [one](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)! An online Morse audio decoder.
 ```
