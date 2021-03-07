@@ -20,7 +20,7 @@ So lets see if it fits our time frame:</br>
 Proof of the crime, nice! But we can also see the time and date of this tweet. And it is after the wayback snapshot. So time to check it out.</br>
 </br>
 ![julius](./julius.png)</br>
-So nice! We have the original profile! And do we have there? Might one of the tweets give us a hint?</br>
+So nice! We have the original profile! And what do we have there? Might one of the tweets give us a hint?</br>
 ![cipher](./cipher.png)</br>
 Oh, the basis of cryptography classes. Who would have guessed it?
 
