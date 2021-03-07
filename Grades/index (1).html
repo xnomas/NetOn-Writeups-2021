@@ -1,0 +1,121 @@
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <style>
+        body {
+            background-color: black;
+            color: rgb(0, 255, 0);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #table {
+            width: auto;
+            margin: 0 auto;
+            border: none;
+        }
+        #table tr:nth-child(even) {
+            background-color: rgb(34, 34, 34);
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+    <h1>Hacking final exam results</h1>
+    <table class="upv_listacolumnas" id="table">
+        <thead>
+            <tr>
+                <th scope="col" class="aligncenter">Name</th>
+                <th scope="col" class="aligncenter">Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="upv_listanon"><td class="alignleft">nUK<,IDt-.bvKL|./EO$%;k}@_</td><td class="alignleft">1337</td></tr>
+        </tbody>
+    </table>
+    <script>
+        var list = [
+            'Marmeus',
+            'eljoselillo7',
+            'Raulet',
+            'DyRS_16',
+            'N0xi0us',
+            'X4v1l0k',
+            '_marcb',
+            'k1m3rA',
+            'Groovy',
+            'MEE6',
+            'Alexing99',
+            'itzAlex',
+            'Nikeley',
+            'Ninjatron',
+            'Troyano',
+            'ismapolis',
+            'albaserrat99',
+            'amp_',
+            'Carlos',
+            'DEMON',
+            'DonMandingo',
+            'fire_dancer_shy',
+            'gorkaaguirre13',
+            'Guilleavis7',
+            'hugopuig',
+            'isHaack',
+            'Jordivaño',
+            'juanbollainmunoz',
+            'maalo10',
+            'Rexilino',
+            'Robertt',
+            'Soporte\x20DyRS16',
+            'urworstnightmare',
+            'Wozen'
+        ];
+        function encrypt(_0x40a681) {
+            var _0x16b830 = 0x20, _0x561689 = 0x5e, _0x3db275 = 0x0, _0x38a41d = '';
+            for (var _0x278871 = 0x0; _0x278871 < _0x40a681['length']; _0x278871++) {
+                _0x38a41d = _0x38a41d + String['fromCharCode']((_0x40a681['charCodeAt'](_0x278871) + _0x3db275) % _0x561689 + _0x16b830), _0x3db275 = _0x3db275 + _0x40a681['charCodeAt'](_0x278871);
+            }
+            return _0x38a41d;
+        }
+        function addRows() {
+            var _0x3eecae = document['getElementById']('table');
+            for (var _0x49e882 = 0x0; _0x49e882 < list['length']; _0x49e882++) {
+                var _0x38ce18 = _0x3eecae['insertRow'](), _0x95375c = _0x38ce18['insertCell'](0x0), _0x297d6b = _0x38ce18['insertCell'](0x1);
+                _0x95375c['innerHTML'] = list[_0x49e882], _0x297d6b['innerHTML'] = Math['round'](Math['random']() * 0x3e8) / 0x64;
+            }
+        }
+        function sortTable() {
+            var _0x51aa5a, _0x3537fa, _0x41f6ef, _0x3c9535, _0x522586, _0x3a66fe, _0x35b7eb;
+            _0x51aa5a = document['getElementById']('table'), _0x41f6ef = !![];
+            while (_0x41f6ef) {
+                _0x41f6ef = ![], _0x3537fa = _0x51aa5a['rows'];
+                for (_0x3c9535 = 0x1; _0x3c9535 < _0x3537fa['length'] - 0x1; _0x3c9535++) {
+                    _0x35b7eb = ![], _0x522586 = _0x3537fa[_0x3c9535]['getElementsByTagName']('TD')[0x1], _0x3a66fe = _0x3537fa[_0x3c9535 + 0x1]['getElementsByTagName']('TD')[0x1];
+                    if (parseFloat(_0x522586['innerHTML']['replace'](',', '.')) < parseFloat(_0x3a66fe['innerHTML']['replace'](',', '.'))) {
+                        _0x35b7eb = !![];
+                        break;
+                    }
+                }
+                _0x35b7eb && (_0x3537fa[_0x3c9535]['parentNode']['insertBefore'](_0x3537fa[_0x3c9535 + 0x1], _0x3537fa[_0x3c9535]), _0x41f6ef = !![]);
+            }
+        }
+        function addColumn() {
+            var _0x5b35d7 = 0x0, _0x4ca0e0 = '';
+            [...document['querySelectorAll']('#table\x20tr')]['forEach']((_0xb1e32f, _0x45a624) => {
+                if (_0x45a624 != 0x0) {
+                    var _0x539787 = document['createElement']('td');
+                    _0x539787['innerHTML'] = _0x45a624, first = _0xb1e32f['childNodes'][0x0], _0xb1e32f['insertBefore'](_0x539787, first);
+                    _0x4ca0e0 != _0xb1e32f['childNodes'][0x2]['innerHTML'] && (_0x5b35d7++, _0x4ca0e0 = _0xb1e32f['childNodes'][0x2]['innerHTML']);
+                    var _0x3df80d = document['createElement']('td');
+                    _0x3df80d['innerHTML'] = _0x5b35d7, _0xb1e32f['insertBefore'](_0x3df80d, first);
+                } else {
+                    var _0x539787 = document['createElement']('th'), _0x3df80d = document['createElement']('th');
+                    _0x3df80d['innerHTML'] = 'Classification', _0x539787['innerHTML'] = 'By\x20grade', first = _0xb1e32f['childNodes'][0x0], _0xb1e32f['insertBefore'](_0x3df80d, first), _0xb1e32f['insertBefore'](_0x539787, first);
+                }
+            });
+        }
+        for (var i = 0x0; i < list['length']; i++) {
+            list[i] = encrypt(list[i]);
+        }
+        addRows(), sortTable(), addColumn();
+    </script>
+</body>
