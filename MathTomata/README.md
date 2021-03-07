@@ -2,7 +2,9 @@
 
 Author: Nikeley
 ```
-Ada was a spectacular mathematician, but she realized that her husband Ted was slowly killing her with poison to preserve the latest patents she had created. Since she couldn’t leave the house, she decided to hide a 13-character message that would be revealed once the ‘DFA’ was resolved. Can you find the message?
+Ada was a spectacular mathematician, but she realized that her husband Ted was slowly killing her with poison
+to preserve the latest patents she had created. Since she couldn’t leave the house, she decided to hide a 13-character
+message that would be revealed once the ‘DFA’ was resolved. Can you find the message?
 
 Q = {Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9}
 
