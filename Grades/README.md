@@ -36,7 +36,7 @@ The function is available to us in the Dev Tools console! The flag is the first 
 </br>
 ![flag_test](./flag_test.png)
 </br>
-And is the proof of concept. `NETON{` encrypted with the function is equal to the first 6 letters of `ciphertext`. Now to just bruteforce the whole flag:
+And here is the proof of concept. `NETON{` encrypted with the function is equal to the first 6 letters of `ciphertext`. Now to just bruteforce the whole flag:
 ````javascript
 var alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!_{}";
 var ciphertext = "nUK<,IDt-.bvKL|./EO$%;k}@_";
