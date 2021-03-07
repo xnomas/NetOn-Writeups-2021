@@ -5,8 +5,7 @@ Here is how I did:</br>
 ![Top_10_Users](./Top_10_Users.png)
 </br></br>
 And my *board*:</br>
-</br></br>
-![me](./me.png)\\
+![me](./me.png)</br>
 ![Category_Breakdown](./Category_Breakdown.png)
 </br></br>
 ![Score_over_Time](./Score_over_Time.png)
