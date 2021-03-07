@@ -6,6 +6,6 @@ Here is how I did:</br>
 </br></br>
 And my *board*:</br>
 ![me](./me.png)</br>
-![Category_Breakdown](./Category_Breakdown.png)
+![Category_Breakdown](./Category_Breakdown.png =100x200)
 </br></br>
 ![Score_over_Time](./Score_over_Time.png)
